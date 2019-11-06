@@ -3,19 +3,13 @@ a{
     font-size: 20px; 
 }
 
-html{
-    /* background-color: red  */
-}
+
 li{
     color:red;
    
  
 }
-header{
 
-
-
-}
 #naam{
     color: red;
     font-size: 30px;
@@ -74,9 +68,9 @@ li a {
      
  }
  body{
-     background-image: url("star-clusters-67616_1920.jpg");
+     background-image: url("images/star-clusters-67616_1920.jpg");
      background-repeat:no-repeat;
-    background-position: full screen;
+    background-position: 100%;
  }
   
   h2{
@@ -84,6 +78,20 @@ li a {
 
     text-align: center;
     font-size: 25px;
+  }
+  #demo{
+    color:White;
+    text-align:center;
+    font-size:25px;
+  }
+  .fa {
+    font-size: 100px;
+    cursor: pointer;
+    user-select: none;
+  }
+  
+  .fa:hover {
+    color: darkblue;
   }
  
   

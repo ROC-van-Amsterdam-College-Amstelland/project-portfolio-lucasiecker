@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>porfolio Luca Siecker</title>
     <link rel='stylesheet' type='text/css'href='index.css'>
+    <script src='script.js'></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     
@@ -20,6 +22,7 @@
                 <li><a href="projecten.html">Projecten</a></li>
                 <li><a href="contact.html">Contact</a></li>
                 <li><a href="https://github.com/lucasiecker">github</a></li>
+                <li><a href="https://linkto.run/p/SQMDSZ58">poll</a></li>
             </ul>
         </nav>
     </header>
@@ -29,6 +32,21 @@
             <h2>adres: Maalderij 37, Amstelveen</h2>
     </main>
     <footer>
+            
+
+            <p id="demo"></p>
+            
+            <script>
+            var d = new Date();
+            document.getElementById("demo").innerHTML = d;
+            </script>
+            
+            <i onclick="myFunction(this)" class="fa fa-thumbs-up"></i>
+    
+            <script>
+                function myFunction(x) {
+                 x.classList.toggle("fa-thumbs-down");
+    }       </script>
       
     </footer>
 </body>

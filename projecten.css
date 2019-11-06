@@ -74,7 +74,18 @@ li a {
      
  }
  body{
-  background-image: url("star-clusters-67616_1920.jpg");
+  background-image: url("images/star-clusters-67616_1920.jpg");
   background-repeat:no-repeat;
- background-position: full screen;
+ background-position: 100%;
+ }
+img{
+  height:250px;
+  width:250px;
+  
 }
+h2{
+  color:white;
+  text-align:center;
+  font-size:25px;
+}
+
